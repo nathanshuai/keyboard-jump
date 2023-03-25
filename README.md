@@ -1,6 +1,6 @@
 ### Hi there 👋 Welcome 
 
-Click [here](https://nathanshuai.github.io/fakebook/) to see my fast-typing game.
+Click [here](https://nathanshuai.github.io/keyboard-jump/) to see my fast-typing game.
 
 <br />
 
@@ -11,4 +11,4 @@ Click [here](https://nathanshuai.github.io/fakebook/) to see my fast-typing game
 
 
 # keyboard-jump
-# keyboard-jump
+
