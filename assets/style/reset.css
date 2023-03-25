@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    outline: none;
+    border-style: none;
+    vertical-align: baseline;
+}
+
+html {
+    height: 100%;
+    font-family: Delicious Handrawn;
+}
+
+body {
+    height: 100%;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+li, a, i, figure, img, button, 
+input[type=button], input[type=submit] {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+nput[type=button], input[type=submit] {
+    cursor: pointer;
+}
