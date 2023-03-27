@@ -104,7 +104,7 @@ function startGame() {
   message.textContent = '';
   wordElement.textContent = randomWord;
   pointsDisplay.textContent = `Points: ${points}`;
-  timeLeftDisplay.textContent = `Time left: ${timeLeft}`;
+  timeLeftDisplay.textContent = `Time Left: ${timeLeft} `;
   wordInput.value = '';
   wordInput.disabled = false;
   submitButton.disabled = false;
