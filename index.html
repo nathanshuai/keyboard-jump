@@ -21,22 +21,24 @@
                 <button type="button" id="start-button" onclick="startGame()">Play</button>
             </div>
             <figure>
-                <img  class="minions" src="./assets/image/jumpimage.png" alt="minions">
+                <img  class="minions" src="./assets/image/img.png" alt="minions">
             </figure>
             <section>
-                <div class="playground">
+                <div class="center playground">
                     <div class="center scoreboard">
                         <i class="fa-regular fa-clock"></i>
                         <p id="time-left"></p>
                         <p id="points"></p>
-                        <p id="message"></p>
+                        <div class="result">
+                            <p id="message"></p>
+                        </div>
                     </div>
                     <div class="center playboard">
-                        <p>Type the word: <span id="word"></span></p>
+                        <p>Type the word: </p>
+                        <p><span id="word"></span></p>
                         <input type="text" id="input" placeholder="Enter here">
-                        <button id="submit-button">Hit!</button>
+                        <button id="submit-button">Hits!</button>
                     </div>
-                    <div class="results"></div>
                 </div>
                 <div class="result-container hidden">
                     <h2>Game over!</h2>
