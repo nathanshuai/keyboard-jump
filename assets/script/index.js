@@ -104,7 +104,7 @@ function startGame() {
   message.textContent = '';
   wordElement.textContent = randomWord;
   pointsDisplay.textContent = `Points: ${points}`;
-  timeLeftDisplay.textContent = `Time Left: ${timeLeft} `;
+  timeLeftDisplay.textContent = ` ${timeLeft} `;
   wordInput.value = '';
   wordInput.disabled = false;
   submitButton.disabled = false;
@@ -122,7 +122,7 @@ function reStartGame() {
   message.textContent = '';
   wordElement.textContent = randomWord;
   pointsDisplay.textContent = `Points: ${points}`;
-  timeLeftDisplay.textContent = `Time left: ${timeLeft}`;
+  timeLeftDisplay.textContent = ` ${timeLeft}`;
   wordInput.value = '';
   wordInput.disabled = false;
   submitButton.disabled = false;
@@ -156,7 +156,7 @@ function handleKeyPress(event) {
 
 function updateTimer() {
   timeLeft--;
-  timeLeftDisplay.textContent = `Time left: ${timeLeft}`;
+  timeLeftDisplay.textContent = ` ${timeLeft}`;
   if (timeLeft <= 0) {
       endGame();
   }
@@ -184,7 +184,6 @@ function endGame() {
 function getRandomWord() {
   return words[Math.floor(Math.random() * words.length)];
 }
-
 
 
 

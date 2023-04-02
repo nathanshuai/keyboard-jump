@@ -23,7 +23,7 @@ body {
   width: min(100% - 30px, 1080px);
   margin-inline: auto;
   text-align: center;
-  height: 100%;
+  max-height: 300px;
 }
 
 h2 {
@@ -49,7 +49,7 @@ h2 span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .playground {
@@ -99,6 +99,7 @@ input::placeholder {
 
 .result {
   margin: 15px;
+  padding: 5px;
   width: 100%;
   height: 50px;
   border: solid 3px white;
@@ -108,12 +109,13 @@ input::placeholder {
 /*button */
 
 button  {
-  margin-top: 50px;
+  margin-top: 60px;
   margin-right: 26px;
+  padding: 5px;
   width: 180px;
   height: 75px;
   border-radius: 30px;
-  font-size: 36px;
+  font-size: 38px;
   color: #fff;
   font-weight: 800;
   letter-spacing: 5px;
@@ -141,6 +143,7 @@ figure img {
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
+  max-width: 100%;
 }
 @keyframes jump {
   0% {
@@ -190,8 +193,126 @@ figure img {
 
 .result-container p {
   color: var(--app-purple);
-  margin: 10px 280px;
-  margin-top: 30px;
+  margin: 10px 30px;
   font-size: 42px;
 }
 
+#submit-button {
+  display: none;
+}
+/*responsive design*/
+
+@media (max-width:480px) {
+  img {
+    width: 50%;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  h2 span {
+    font-size: 42px;
+  }
+  button {
+    width: 100%;
+    height: 50px;
+    font-size: 12px;
+  }
+  p {
+    font-size: 22px;
+  }
+  .playboard p  {
+    font-size: 55px;
+  }
+  #word {
+    font-size: 65px;
+  }
+  input {
+    width: 120px;
+  }
+
+  .result-container h2 {
+    font-size: 32px;
+  }
+  .result-container > p {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width:768px) {
+  img {
+    width: 50%;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  h2 span {
+    font-size: 42px;
+  }
+  button {
+    width: 30%;
+    height: 50px;
+    font-size: 30px;
+  }
+  p {
+    font-size: 22px;
+  }
+  .playboard p  {
+    font-size: 55px;
+  }
+  #word {
+    font-size: 65px;
+  }
+  input {
+    width: 120px;
+  }
+
+  .result-container h2 {
+    font-size: 42px;
+  }
+  .result-container > p {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+@media (max-width:1200px) {
+  img {
+    width: 40%;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  h2 span {
+    font-size: 42px;
+  }
+  button {
+    width: 15%;
+    height: 50px;
+    font-size: 30px;
+  }
+  p {
+    font-size: 22px;
+  }
+  .playboard p  {
+    font-size: 55px;
+  }
+  #word {
+    font-size: 65px;
+  }
+  input {
+    width: 120px;
+  }
+
+  .result-container h2 {
+    font-size: 42px;
+  }
+  .result-container > p {
+    width: 100%;
+    font-size: 26px;
+  }
+}
+
+@media (min-width:1201px) {
+  
+}
