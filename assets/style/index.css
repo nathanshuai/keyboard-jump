@@ -112,7 +112,7 @@ button  {
   margin-top: 60px;
   margin-right: 26px;
   padding: 5px;
-  width: 180px;
+  width: 20%;
   height: 75px;
   border-radius: 30px;
   font-size: 38px;
@@ -147,33 +147,39 @@ figure img {
 }
 @keyframes jump {
   0% {
+    height: 300px;
     left: 20%;
     transform: translateX(-50%) translateY(0%);
   }
 
   20% {
+    height: 300px;
     left: 20%;
-    transform: translateX(-50%) translateY(-100%);
+    transform: translateX(-50%) translateY(-80%);
   }
 
   40% {
+    height: 300px;
     left: 20%;
     transform: translateX(-50%) translateY(0%);
   }
 
   60% {
+    height: 300px;
     left: 20%;
-    transform: translateX(-50%) translateY(-100%);
+    transform: translateX(-50%) translateY(-80%);
   }
 
   80% {
+    height: 300px;
     left: 20%;
     transform: translateX(-50%) translateY(0%);
   }
 
   100% {
+    height: 300px;
     left: 20%;
-    transform: translateX(-50%) translateY(-100%);
+    transform: translateX(-50%) translateY(-80%);
   }
 }
 
@@ -213,9 +219,9 @@ figure img {
     font-size: 42px;
   }
   button {
-    width: 100%;
+    width: 25%;
     height: 50px;
-    font-size: 12px;
+    font-size: 30px;
   }
   p {
     font-size: 22px;
@@ -249,11 +255,7 @@ figure img {
   h2 span {
     font-size: 42px;
   }
-  button {
-    width: 30%;
-    height: 50px;
-    font-size: 30px;
-  }
+  
   p {
     font-size: 22px;
   }
@@ -286,11 +288,7 @@ figure img {
   h2 span {
     font-size: 42px;
   }
-  button {
-    width: 15%;
-    height: 50px;
-    font-size: 30px;
-  }
+  
   p {
     font-size: 22px;
   }
