@@ -117,7 +117,7 @@ function reStartGame() {
   backgroundSound.play();
   playGround.classList.remove('playground');
   points = 0;
-  timeLeft = 9;
+  timeLeft = 99;
   randomWord = getRandomWord();
   message.textContent = '';
   wordElement.textContent = randomWord;
