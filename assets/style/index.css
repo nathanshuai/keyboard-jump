@@ -314,3 +314,14 @@ figure img {
 @media (min-width:1201px) {
   
 }
+
+dialog {
+  color: #fff;
+  text-align: center;
+  margin: auto 0 auto auto;
+  padding: 30px;
+  height: 100%;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
